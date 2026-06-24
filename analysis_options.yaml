@@ -1,0 +1,17 @@
+analyzer:
+  exclude:
+    - "**/*.g.dart"
+    - "**/*.freezed.dart"
+    - "**/*.config.dart"
+  errors:
+    invalid_annotation_target: false
+include: package:very_good_analysis/analysis_options.10.3.0.yaml
+linter:
+  rules:
+    public_member_api_docs: false
+    sort_constructors_first: false
+    sort_unnamed_constructors_first: false
+    lines_longer_than_80_chars: false
+    one_member_abstracts: false
+    avoid_redundant_argument_values: false
+    sort_pub_dependencies: false

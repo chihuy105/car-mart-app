@@ -1,0 +1,19 @@
+{
+  "app": {
+    "title": "Car Mart"
+  },
+  "common": {
+    "refresh": "Refresh",
+    "somethingWentWrong": "Something went wrong"
+  },
+  "webView": {
+    "connectionError": "Please check your connection and try again."
+  },
+  "todo": {
+    "loadFailed": "Failed to load todo"
+  },
+  "errors": {
+    "server": "A server error occurred",
+    "unknown": "Something went wrong"
+  }
+}
