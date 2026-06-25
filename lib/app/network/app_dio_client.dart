@@ -23,8 +23,9 @@ class AppDioClient extends DioClient {
     if (kDebugMode) {
       dio.interceptors.add(LogInterceptor(responseBody: true));
     }
-    // chucker disabled
-    // if (kDebugMode) { dio.interceptors.add(ChuckerDioInterceptor()); }
+    if (kDebugMode) {
+      dio.interceptors.add(ChuckerDioInterceptor());
+    }
 
     _dio = dio;
   }

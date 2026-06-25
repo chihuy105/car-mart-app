@@ -11,8 +11,7 @@ part 'app_router.gr.dart';
 class AppRouter extends RootStackRouter {
   AppRouter()
     : super(
-      // chucker disabled
-      // navigatorKey: kDebugMode ? ChuckerFlutter.navigatorKey : null,
+      navigatorKey: kDebugMode ? ChuckerFlutter.navigatorKey : null,
     );
 
   @override
